@@ -7,3 +7,45 @@ body {
   background: url('/assets/images/login_bg.jpg') no-repeat center;
   background-size: cover;
 }
+/* 登录区域 */
+.loginAndRexBox {
+  width: 400px;
+  height: 310px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-box {
+  height: 60px;
+  background: url('/assets/images/login_title.png') no-repeat center;
+}
+.reg-box {
+  display: none;
+}
+/* form表单 */
+.layui-form {
+  padding: 0 30px;
+}
+/* 去注册区域 */
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.links a {
+  font-size: 12px;
+}
+/* 小图标 */
+.layui-form-item {
+  position: relative;
+}
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+/* 输入框内容 */
+.layui-input {
+  padding-left: 32px;
+}
