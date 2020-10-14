@@ -1,0 +1,15 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #F2F3F5;
+}
+
+.layui-card {
+    margin: 15px;
+}
+.layui-form {
+    width: 500px;
+}

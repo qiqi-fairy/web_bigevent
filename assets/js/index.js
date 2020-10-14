@@ -1,7 +1,6 @@
 $(function () {
     // 调用 getUserInfo 函数
     getUserInfo();
-
     // layer 
     layer = layui.layer;
 
@@ -54,6 +53,7 @@ function getUserInfo() {
 }
 // 获取用户头像的函数 渲染用户头像
 function renderAvatar(user) {
+    // console.log(123);
     // 获取用户的名称
     var name = user.nickname || user.username;
     // 设置欢迎的文本

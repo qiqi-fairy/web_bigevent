@@ -2,7 +2,7 @@
 $.ajaxPrefilter(function (options) {
     // 在发起真正的 ajax 请求之前，统一拼接请求的根路径
     options.url = 'http://ajax.frontend.itheima.net' + options.url;
-    console.log(options.url);
+    // console.log(options.url);
 
     // 统一为 有权限的接口，设置 headers回调函数
     if(options.url.indexOf('/my/') !== -1 ){
